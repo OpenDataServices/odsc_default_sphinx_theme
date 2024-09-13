@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="odsc_default_sphinx_theme",
-    version="0.0.0",
+    version="0.0.1",
     author="Open Data Services",
     author_email="code@opendataservices.coop",
     packages=["odsc_default_sphinx_theme"],
@@ -15,5 +15,5 @@ setup(
             'odsc_default_sphinx_theme = odsc_default_sphinx_theme',
         ],
     },
-    package_data={'odsc_default_sphinx_theme': ['static/*']},
+    package_data={'odsc_default_sphinx_theme': ['static/*','theme.toml']},
 )
