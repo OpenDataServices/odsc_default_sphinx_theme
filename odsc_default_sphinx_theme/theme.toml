@@ -2,7 +2,7 @@
 inherit="furo"
 
 [options]
-light_css_variables= { color-brand-primary= '#aa2b5c',  color-brand-content= '#aa2b5c',  color-background-secondary= '#FAF8F9',  color-sidebar-brand-text= '#aa2b5c'}
-dark_css_variables= { color-brand-primary= '#da8ba9',  color-brand-content= '#da8ba9',  color-sidebar-brand-text= '#da8ba9' }
-dark_logo= "ods_logo.png"
-light_logo="ods_logo.png"
+light_css_variables= { color-brand-primary= '#000000', color-brand-content= '#000000', color-brand-visited= '#000000', color-background-secondary= '#ffffff', color-sidebar-brand-text= '#000000'}
+dark_css_variables= { color-brand-primary= '#ffffff', color-brand-content= '#ffffff', color-brand-visited= '#ffffff', color-sidebar-brand-text= '#ffffff' }
+dark_logo= "ods_logo_light.svg"
+light_logo="ods_logo_dark.svg"
